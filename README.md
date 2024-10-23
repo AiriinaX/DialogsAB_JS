@@ -23,3 +23,16 @@ Link to the emojis: [Formatting Tips](https://github.com/ikatyang/emoji-cheat-sh
 **2. topic**
 
 **3. topic**
+https://htmlpreview.github.io/
+
+<!-- <link rel="stylesheet" href="/Users/irina/Downloads/DialogsAB/DialogsAB_JS/Class_03/styles/mystyle.css"> -->
+<!-- <link rel="stylesheet" href="Class_03/styles/mystyle.css"> -->
+<link rel="stylesheet" href="./styles/mystyle.css">
+<!-- <link rel="stylesheet" href="/Users/irina/Downloads/DialogsAB/DialogsAB_JS/Class_03/styles/mystyle.css"> -->
+<!-- <link rel="stylesheet" href="https://e-vide.dialogs-ab.lv/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css"> -->
+
+
+Home Work 28.10.
+https://www.w3schools.com/jsref/jsref_operators.asp
+> - console.log()
+> - 
