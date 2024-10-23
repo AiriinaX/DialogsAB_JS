@@ -1,8 +1,27 @@
 body {
-    background-color: lightblue;
-  }
-  
+  background-color: rgb(48, 48, 48);
+}
   h1 {
-    color: navy;
-    margin-left: 20px;
+    margin: 40px;
+    background-color: #363636;
+    border-style: groove;
+    border-color: #ffffff;
+    border-width: 1px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    line-height: 60px;
+  }
+  p {
+    margin: 10px;
+    background-color: #575757;
+    color: #ffffff; /* Set text color to red */
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
   }
