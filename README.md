@@ -37,9 +37,35 @@ https://htmlpreview.github.io/
 ## 8.nodarbība
 **Funkciju apraksts**
 
-> Noderīgi linki
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
-https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test
+> [!Noderīgi linki]
+> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
+> https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test
+> https://chatgpt.com/share/67323625-dd14-8012-8daa-ff3ef405b4b0
 
 > [!TIP]
 > function (event) var tikt saīsināts kā (event) =>
+
+***
+
+Funkcijas apraskst ar izteiksmes palīdzību netiek automātiski nolasīts (NAV HOISTED) un tā ir jānovieto pirms atsaukšanās uz funkciju:
+const greet = function(name) {
+    return `Hello, ${name}!`;
+};
+
+***
+
+Ja ir hoisted, tad var likt beigās un tiks nolasīts tāpat:
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+***
+
+Uzreiz darbināma:
+(function() {
+    console.log("This function runs immediately!");
+})();
+
+();  ir izpildīšanas komanda
+
+![alt text](image.png)
