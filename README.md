@@ -32,7 +32,14 @@ https://htmlpreview.github.io/
 <!-- <link rel="stylesheet" href="https://e-vide.dialogs-ab.lv/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css"> -->
 
 
-Home Work 28.10.
-https://www.w3schools.com/jsref/jsref_operators.asp
-> - console.log()
-> - 
+
+
+## 8.nodarbība
+**Funkciju apraksts**
+
+> Noderīgi linki
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test
+
+> [!TIP]
+> function (event) var tikt saīsināts kā (event) =>
