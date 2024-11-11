@@ -69,3 +69,4 @@ Uzreiz darbināma:
 ();  ir izpildīšanas komanda
 
 ![alt text](image.png)
+jaunais
