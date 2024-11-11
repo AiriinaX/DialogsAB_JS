@@ -41,6 +41,7 @@ https://htmlpreview.github.io/
 > https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
 > https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test
 > https://chatgpt.com/share/67323625-dd14-8012-8daa-ff3ef405b4b0
+> https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
 
 > [!TIP]
 > function (event) var tikt saīsināts kā (event) =>
@@ -69,4 +70,3 @@ Uzreiz darbināma:
 ();  ir izpildīšanas komanda
 
 ![alt text](image.png)
-jaunais
