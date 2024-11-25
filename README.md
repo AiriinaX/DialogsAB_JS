@@ -319,3 +319,25 @@ Use configurable: false only when you need to protect properties from accidental
 https://chatgpt.com/share/67323625-dd14-8012-8daa-ff3ef405b4b0
 
 https://chatgpt.com/share/67323625-dd14-8012-8daa-ff3ef405b4b0
+
+
+## 10.nodarbība
+
+**Objektu attēlošana**
+
+https://www.w3schools.com/js/js_object_display.asp
+
+
+**Objektu konstruktori**
+
+https://www.w3schools.com/js/js_object_constructors.asp
+
+
+**Objektu klases**
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript
+
+https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism
+
+https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation
+
