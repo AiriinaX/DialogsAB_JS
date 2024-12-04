@@ -341,3 +341,15 @@ https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism
 
 https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation
 
+
+
+## 12.nodarbība
+
+Noderīgi linki
+
+https://www.javascripttutorial.net/javascript-bom/
+https://www.javascripttutorial.net/javascript-bom/javascript-location/
+https://www.hostinger.com/tutorials/domain-vs-hosting
+https://developer.mozilla.org/en-US/docs/Web/API/ScreenDetailed
+https://www.javascripttutorial.net/javascript-bom/javascript-history/
+
