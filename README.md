@@ -353,3 +353,19 @@ https://www.hostinger.com/tutorials/domain-vs-hosting
 https://developer.mozilla.org/en-US/docs/Web/API/ScreenDetailed
 https://www.javascripttutorial.net/javascript-bom/javascript-history/
 
+
+## 12.nodarbība
+
+Noderīgi linki
+
+https://www.javascripttutorial.net/javascript-dom/
+https://en.wikipedia.org/wiki/Document_Object_Model
+https://developer.mozilla.org/en-US/docs/Web/API/Element#events
+https://www.javascripttutorial.net/javascript-dom/javascript-getelementsbyclassname/
+https://www.w3schools.com/js/js_htmldom_collections.asp
+https://www.w3schools.com/js/js_htmldom_nodelist.asp
+https://medium.com/@layne_celeste/htmlcollection-vs-nodelist-4b83e3a4fb4b
+https://www.javascripttutorial.net/javascript-dom/ -> Section 3. Traversing elements
+https://www.javascripttutorial.net/javascript-dom/ -> Section4. Manipulating
+https://www.javascripttutorial.net/javascript-dom/
+https://www.javascripttutorial.net/javascript-dom/javascript-events/ Section 8. Scripting Web Forms
