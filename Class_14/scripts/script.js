@@ -1,3 +1,4 @@
+// https://www.javascripttutorial.net/web-apis/javascript-cookies/
 // max cookie size - 4096 bytes (4 KB) - for name + value
 /*
 1. Cookie nolasīšana
@@ -10,15 +11,18 @@
 7. Cookie dzēšana (iztecējušā laika uzdošana)
 */
 
+/*
 var str = document.cookie;
 console.log("cookie vērtība: " + str);
 
 document.cookie = "username_1=admin_1; path=/";
-document.cookie = "username_2=admin_1";
+document.cookie = "username_2=admin_2";
 str = document.cookie;
 console.log("cookie vērtība: "+str);
+*/
 
-document.cookie = "username=admin_2";
+
+//document.cookie = "username=admin_2";
 str = document.cookie;
 console.log("cookie vērtība: "+str);
 

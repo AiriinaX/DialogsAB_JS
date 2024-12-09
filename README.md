@@ -4,6 +4,9 @@ Notes | JavaScript
 
 ![javascript_logo](https://github.com/user-attachments/assets/7d6fc10e-1469-48d6-85e3-4dd4d3200b60)
 
+
+https://github.com/tatusmatrixAB/DialogsAB_JS
+
 > [!TIP]
 > Some basic Git commands are:
 >
@@ -369,3 +372,22 @@ https://www.javascripttutorial.net/javascript-dom/ -> Section 3. Traversing elem
 https://www.javascripttutorial.net/javascript-dom/ -> Section4. Manipulating
 https://www.javascripttutorial.net/javascript-dom/
 https://www.javascripttutorial.net/javascript-dom/javascript-events/ Section 8. Scripting Web Forms
+
+
+## 14.nodarbība
+
+Noderīgi linki
+
+https://www.rtu.lv/lv/universitate/masu-medijiem/zinas/atvert/vieslekcija-bus-iespeja-uzzinat-par-kibernoziegumiem-izspiedejvirusu-ekosistemu-un-draudiem-nacionalajai-drosibai
+
+https://www.facebook.com/events/944854887075397/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A563287309920495%7D%7D]%22%7D
+
+https://www.delfi.lv/bizness/56234200/eiropas-zinas/120053457/aicina-pieaugusos-pieteikties-izglitibas-programmas-lai-apgutu-darba-tirgu-aktualas-profesijas
+
+https://www.javascripttutorial.net/web-apis/javascript-cookies/
+
+https://www.w3schools.com/html/html5_webstorage.asp
+
+https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning
+
+https://developer.mozilla.org/en-US/docs/Web/Privacy
