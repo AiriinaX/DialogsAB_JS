@@ -14,7 +14,7 @@ Flash card app for learning. Display, add and remove memory cards with questions
 
 ## A LIST OF VARIABLES IN THE CODE
 
-## DOM Elements:
+# DOM Elements:
 
 cardsContainer – Represents the element with the ID cards-container.
 prevBtn – Represents the element with the ID prev.
