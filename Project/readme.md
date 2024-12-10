@@ -257,8 +257,8 @@ This function retrieves the cards stored in local storage, if any. If no cards a
 This function saves the updated cards array to local storage and reloads the page to reflect any changes (such as adding a new card).
 
 ### Flow Summary
-- On Page Load: The createCards() function runs to render all cards stored in local storage (or the default set if none exist).
-- Navigating Cards: The user can navigate through the cards using the "Next" and "Previous" buttons, which update the active card and display the current card number.
-- Adding a Card: The user can click "Add Card," enter a question and answer, and then save the new card to local storage and the UI.
-- Clearing Cards: The user can clear all cards from the page and local storage using the "Clear" button.
+- On Page Load. The createCards() function runs to render all cards stored in local storage (or the default set if none exist).
+- Navigating Cards. The user can navigate through the cards using the "Next" and "Previous" buttons, which update the active card and display the current card number.
+- Adding a Card. The user can click "Add Card," enter a question and answer, and then save the new card to local storage and the UI.
+- Clearing Cards. The user can clear all cards from the page and local storage using the "Clear" button.
 
