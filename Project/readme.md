@@ -185,6 +185,6 @@ newCard – Represents a newly created card object with question and answer prop
 14. Event Listener Methods
 -  addEventListener(): Attaches an event handler to an element.
 -  removeEventListener(): Removes an event handler from an element (not used in the provided code but part of the event listener syntax).
-  nextBtn.addEventListener('click', () => {...}); //
-  prevBtn.addEventListener('click', () => {...}); //
+
+
 
