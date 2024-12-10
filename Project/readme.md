@@ -187,4 +187,78 @@ newCard – Represents a newly created card object with question and answer prop
 -  removeEventListener(): Removes an event handler from an element (not used in the provided code but part of the event listener syntax).
 
 
+## THE SEQUENCE OF OPERATIONS 
+
+The sequence of operations in the provided code can be broken down into several steps that correspond to the user interactions and the resulting updates to the user interface and data storage. Below is a description of the sequence of operations, also known as the algorithm or business logic.
+
+1. Initial Setup
+- DOM Element References.
+The first operations involve retrieving references to various DOM elements using document.getElementById(). These elements include containers, buttons, and inputs related to cards.
+- Initialize Variables.
+The currentActiveCard variable is initialized to 0 to track the index of the currently active card.
+An empty array cardsEl is initialized to store DOM elements for the cards.
+The cardsData array is populated using the getCardsData() function. If no cards exist in local storage, it returns a default set of card objects.
+
+2. Card Creation (createCards() & createCard() Functions)
+- createCards().
+This function is called immediately to render all the existing cards on the page.
+It loops through the cardsData array and calls createCard(data, index) for each card object.
+
+- createCard(data, index).
+This function dynamically creates a div element for each card, assigns it the card class, and sets the content (question and answer) using the data object passed to it.
+It also checks if the current card is the first one (index === 0) and adds the active class to highlight it.
+Each card gets a click event listener to toggle the show-answer class, which reveals or hides the answer when the card is clicked.
+The card is then added to the cardsEl array and appended to the cardsContainer in the DOM.
+The function calls updateCurrentText() to update the display of the current active card number.
+
+3. Navigation Between Cards (Next and Previous Buttons)
+- Next Button (nextBtn.addEventListener('click', ...)).
+When the "Next" button is clicked, the current card is moved out of view by applying the left class.
+currentActiveCard is incremented by 1, ensuring it doesn't exceed the total number of cards.
+The new card is assigned the active class, and updateCurrentText() is called to reflect the new active card in the UI.
+
+- Previous Button (prevBtn.addEventListener('click', ...)).
+When the "Previous" button is clicked, the current card is moved out of view by applying the right class.
+currentActiveCard is decremented by 1, ensuring it doesn't go below 0.
+The new card is assigned the active class, and updateCurrentText() is called to reflect the new active card in the UI.
+
+4. Show and Hide Add Card Form
+- Show Add Container (showBtn.addEventListener('click', ...)).
+When the "Show" button is clicked, the addContainer is displayed by adding the show class to it.
+
+- Hide Add Container (hideBtn.addEventListener('click', ...)).
+When the "Hide" button is clicked, the addContainer is hidden by removing the show class.
+
+5. Add New Card
+- Add Card Button (addCardBtn.addEventListener('click', ...)).
+When the "Add Card" button is clicked, the function checks if the questionEl and answerEl fields are not empty using the trim() method.
+If both fields contain valid values, a new card object (newCard) is created with the provided question and answer.
+The new card is passed to createCard(newCard) to render it on the page.
+The input fields are cleared, and the addContainer is hidden by removing the show class.
+The new card is added to the cardsData array, and the updated cardsData is stored in local storage using the setCardsData() function.
+The page is reloaded to reflect the newly added card.
+
+6. Clear All Cards
+- Clear Button (clearBtn.addEventListener('click', ...)).
+When the "Clear" button is clicked, all card data is removed from local storage using localStorage.clear().
+The cardsContainer is emptied by setting its inner HTML to an empty string, effectively removing all cards from the page.
+The page is reloaded to reflect the cleared state.
+
+7. Updating the Current Card Display
+- updateCurrentText().
+This function is called whenever the active card changes (either by navigating through the cards or adding a new card).
+It updates the currentEl element's inner text to show the current active card number in the format currentActiveCard + 1 / total number of cards.
+
+8. Local Storage Management
+- getCardsData().
+This function retrieves the cards stored in local storage, if any. If no cards are found, it returns an empty array.
+
+- setCardsData(cards).
+This function saves the updated cards array to local storage and reloads the page to reflect any changes (such as adding a new card).
+
+### Flow Summary
+- On Page Load: The createCards() function runs to render all cards stored in local storage (or the default set if none exist).
+- Navigating Cards: The user can navigate through the cards using the "Next" and "Previous" buttons, which update the active card and display the current card number.
+- Adding a Card: The user can click "Add Card," enter a question and answer, and then save the new card to local storage and the UI.
+- Clearing Cards: The user can clear all cards from the page and local storage using the "Clear" button.
 
