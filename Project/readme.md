@@ -16,29 +16,29 @@ Flash card app for learning. Display, add and remove memory cards with questions
 
 ### DOM Elements:
 
-cardsContainer – Represents the element with the ID cards-container.
-prevBtn – Represents the element with the ID prev.
-nextBtn – Represents the element with the ID next.
-currentEl – Represents the element with the ID current.
-showBtn – Represents the element with the ID show.
-hideBtn – Represents the element with the ID hide.
-questionEl – Represents the element with the ID question.
-answerEl – Represents the element with the ID answer.
-addCardBtn – Represents the element with the ID add-card.
-clearBtn – Represents the element with the ID clear.
-addContainer – Represents the element with the ID add-container.
+- cardsContainer – Represents the element with the ID cards-container.
+- prevBtn – Represents the element with the ID prev.
+- nextBtn – Represents the element with the ID next.
+- currentEl – Represents the element with the ID current.
+- showBtn – Represents the element with the ID show.
+- hideBtn – Represents the element with the ID hide.
+- questionEl – Represents the element with the ID question.
+- answerEl – Represents the element with the ID answer.
+- addCardBtn – Represents the element with the ID add-card.
+- clearBtn – Represents the element with the ID clear.
+- addContainer – Represents the element with the ID add-container.
 
 ### Variables for managing cards:
 
-currentActiveCard – Tracks the index of the currently active card (initially set to 0).
-cardsEl – An array that stores DOM elements for the cards.
-cardsData – An array holding the data for the cards (question and answer pairs).
+- currentActiveCard – Tracks the index of the currently active card (initially set to 0).
+- cardsEl – An array that stores DOM elements for the cards.
+- cardsData – An array holding the data for the cards (question and answer pairs).
 
 ### Event listener-related variables:
 
-question – Stores the value entered in the question input field.
-answer – Stores the value entered in the answer input field.
-newCard – Represents a newly created card object with question and answer properties.
+- question – Stores the value entered in the question input field.
+- answer – Stores the value entered in the answer input field.
+- newCard – Represents a newly created card object with question and answer properties.
 
 ## A LIST OF FUNCTIONS IN THE CODE
 
