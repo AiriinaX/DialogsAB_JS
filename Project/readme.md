@@ -109,3 +109,35 @@ newCard – Represents a newly created card object with question and answer prop
 7. innerCard, innerCardFront, and innerCardBack (DOM element objects)
   These are nested div elements inside each card, representing the structure of a flip card with front and back sections.
   They are dynamically created and populated with content in the createCard function.
+
+
+## A LIST OF THE CLASSES IN THE CODE
+
+1. card
+  This class is applied to each individual card element that is created. It is used to style the card's appearance.
+
+2. active
+  This class is applied to the currently active card, which is typically the card shown in the center. It is added dynamically to the first card initially and updated when navigating between cards.
+
+3. inner-card
+  A class applied to the container of each card's front and back sections. It wraps the content of the card.
+
+4. inner-card-front
+  A class applied to the front side of the card. This side contains the question of the card.
+
+5. inner-card-back
+  A class applied to the back side of the card. This side contains the answer to the card's question.
+
+6. show-answer
+  This class is toggled on the card element when the user clicks on a card. It is used to show the answer (by revealing the back of the card) when the card is clicked.
+
+7. left
+  This class is applied to a card when it is being moved to the left side (used in the transition when navigating backward through the cards).
+
+8. right
+  This class is applied to a card when it is being moved to the right side (used in the transition when navigating forward through the cards).
+
+9. show
+  This class is added to the add-container element when the "Show" button is clicked, making the container visible for adding a new card. It is removed when the "Hide" button is clicked to hide the container.
+
+
