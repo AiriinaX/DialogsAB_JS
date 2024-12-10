@@ -1,4 +1,4 @@
-## Memory Cards
+# Memory Cards
 
 Flash card app for learning. Display, add and remove memory cards with questions and answers
 
@@ -14,7 +14,7 @@ Flash card app for learning. Display, add and remove memory cards with questions
 
 ## A LIST OF VARIABLES IN THE CODE
 
-# DOM Elements:
+### DOM Elements:
 
 cardsContainer – Represents the element with the ID cards-container.
 prevBtn – Represents the element with the ID prev.
@@ -28,13 +28,13 @@ addCardBtn – Represents the element with the ID add-card.
 clearBtn – Represents the element with the ID clear.
 addContainer – Represents the element with the ID add-container.
 
-## Variables for managing cards:
+### Variables for managing cards:
 
 currentActiveCard – Tracks the index of the currently active card (initially set to 0).
 cardsEl – An array that stores DOM elements for the cards.
 cardsData – An array holding the data for the cards (question and answer pairs).
 
-## Event listener-related variables:
+### Event listener-related variables:
 
 question – Stores the value entered in the question input field.
 answer – Stores the value entered in the answer input field.
@@ -57,7 +57,7 @@ newCard – Represents a newly created card object with question and answer prop
 5. setCardsData(cards)
   Purpose: Saves the current cards data to local storage and reloads the page to reflect the updated cards.
 
-## Event Listeners (as functions)
+### Event Listeners (as functions)
 
 6. nextBtn.addEventListener('click', () => {...})
   Purpose: Moves to the next card when the "Next" button is clicked. It updates the card classes to reflect the new active card.
@@ -78,7 +78,7 @@ newCard – Represents a newly created card object with question and answer prop
   Purpose: Clears the cards from local storage and resets the cards display in the DOM when the "Clear" button is clicked.
 
 
-## A LIST OF OBJECTS IN THE CODE
+### A LIST OF OBJECTS IN THE CODE
 
 1. cardsData (initially an array of objects)
   An array containing multiple card objects, each with the following properties:
@@ -111,7 +111,7 @@ newCard – Represents a newly created card object with question and answer prop
   They are dynamically created and populated with content in the createCard function.
 
 
-## A LIST OF THE CLASSES IN THE CODE
+### A LIST OF THE CLASSES IN THE CODE
 
 1. card
   This class is applied to each individual card element that is created. It is used to style the card's appearance.
