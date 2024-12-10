@@ -114,74 +114,74 @@ newCard – Represents a newly created card object with question and answer prop
 ### A LIST OF THE CLASSES IN THE CODE
 
 1. card
-  This class is applied to each individual card element that is created. It is used to style the card's appearance.
+-  This class is applied to each individual card element that is created. It is used to style the card's appearance.
 
 2. active
-  This class is applied to the currently active card, which is typically the card shown in the center. It is added dynamically to the first card initially and updated when navigating between cards.
+-  This class is applied to the currently active card, which is typically the card shown in the center. It is added dynamically to the first card initially and updated when navigating between cards.
 
 3. inner-card
-  A class applied to the container of each card's front and back sections. It wraps the content of the card.
+-  A class applied to the container of each card's front and back sections. It wraps the content of the card.
 
 4. inner-card-front
-  A class applied to the front side of the card. This side contains the question of the card.
+-  A class applied to the front side of the card. This side contains the question of the card.
 
 5. inner-card-back
-  A class applied to the back side of the card. This side contains the answer to the card's question.
+-  A class applied to the back side of the card. This side contains the answer to the card's question.
 
 6. show-answer
-  This class is toggled on the card element when the user clicks on a card. It is used to show the answer (by revealing the back of the card) when the card is clicked.
+-  This class is toggled on the card element when the user clicks on a card. It is used to show the answer (by revealing the back of the card) when the card is clicked.
 
 7. left
-  This class is applied to a card when it is being moved to the left side (used in the transition when navigating backward through the cards).
+-  This class is applied to a card when it is being moved to the left side (used in the transition when navigating backward through the cards).
 
 8. right
-  This class is applied to a card when it is being moved to the right side (used in the transition when navigating forward through the cards).
+-  This class is applied to a card when it is being moved to the right side (used in the transition when navigating forward through the cards).
 
 9. show
-  This class is added to the add-container element when the "Show" button is clicked, making the container visible for adding a new card. It is removed when the "Hide" button is clicked to hide the container.
+-  This class is added to the add-container element when the "Show" button is clicked, making the container visible for adding a new card. It is removed when the "Hide" button is clicked to hide the container.
 
 
 ## A LIST OF THE OPERATORS IN THE CODE
 1.  Assignment Operator (=)
-  Used to assign values to variables.
+-  Used to assign values to variables.
 
 2. Equality/Strict Equality Operators (==, ===)
-  Used to compare values. The strict equality operator (===) compares both value and type.
+-  Used to compare values. The strict equality operator (===) compares both value and type.
 
 3. Inequality/Strict Inequality Operators (!=, !==)
-  Used to check if values are not equal (inequality) or not equal in value and type (strict inequality).
+-  Used to check if values are not equal (inequality) or not equal in value and type (strict inequality).
 
 4. Addition (+)
-  Used for adding numbers or concatenating strings.
+-  Used for adding numbers or concatenating strings.
 
 5. Subtraction (-)
-  Used for subtracting numbers.
+-  Used for subtracting numbers.
 
 6. Increment (++)
-  Increases a variable's value by 1.
+-  Increases a variable's value by 1.
 
 7. Decrement (--)
-  Decreases a variable's value by 1.
+-  Decreases a variable's value by 1.
 
 8. Logical AND (&&)
-  Used to check if both conditions are true.
+-  Used to check if both conditions are true.
 
 9. Logical OR (||)
-  Used to check if at least one of the conditions is true.
+-  Used to check if at least one of the conditions is true.
 
 10. Ternary Operator (? :)
-  A shorthand for if-else conditions. It evaluates a condition and returns one value if true, and another if false.
+-  A shorthand for if-else conditions. It evaluates a condition and returns one value if true, and another if false.
 
 11. Template Literals (``)
-  Used for embedding expressions inside strings.
+-  Used for embedding expressions inside strings.
 
 12. Array Methods
-  push(): Adds an item to the end of an array.
-  forEach(): Iterates over each element in an array
+-  push(): Adds an item to the end of an array.
+-  forEach(): Iterates over each element in an array
 
 13. Conditional (if/else)
-  Used for controlling the flow based on conditions.
+-  Used for controlling the flow based on conditions.
 
 14. Event Listener Methods
-  addEventListener(): Attaches an event handler to an element.
-  removeEventListener(): Removes an event handler from an element (not used in the provided code but part of the event listener syntax).
+-  addEventListener(): Attaches an event handler to an element.
+-  removeEventListener(): Removes an event handler from an element (not used in the provided code but part of the event listener syntax).
